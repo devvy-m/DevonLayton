@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DevonLayton/static/css/main.4918113d.chunk.css",
+    "main.js": "/DevonLayton/static/js/main.b2eedd5d.chunk.js",
+    "main.js.map": "/DevonLayton/static/js/main.b2eedd5d.chunk.js.map",
+    "runtime-main.js": "/DevonLayton/static/js/runtime-main.e1a87854.js",
+    "runtime-main.js.map": "/DevonLayton/static/js/runtime-main.e1a87854.js.map",
+    "static/js/2.6c6a38f1.chunk.js": "/DevonLayton/static/js/2.6c6a38f1.chunk.js",
+    "static/js/2.6c6a38f1.chunk.js.map": "/DevonLayton/static/js/2.6c6a38f1.chunk.js.map",
+    "static/js/3.c569babb.chunk.js": "/DevonLayton/static/js/3.c569babb.chunk.js",
+    "static/js/3.c569babb.chunk.js.map": "/DevonLayton/static/js/3.c569babb.chunk.js.map",
+    "index.html": "/DevonLayton/index.html",
+    "static/css/main.4918113d.chunk.css.map": "/DevonLayton/static/css/main.4918113d.chunk.css.map",
+    "static/js/2.6c6a38f1.chunk.js.LICENSE.txt": "/DevonLayton/static/js/2.6c6a38f1.chunk.js.LICENSE.txt",
+    "static/media/customLogo512.3c667592.png": "/DevonLayton/static/media/customLogo512.3c667592.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1a87854.js",
+    "static/js/2.6c6a38f1.chunk.js",
+    "static/css/main.4918113d.chunk.css",
+    "static/js/main.b2eedd5d.chunk.js"
+  ]
+}
