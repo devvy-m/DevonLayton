@@ -2,14 +2,17 @@ import "./App.scss";
 import { Container } from "react-bootstrap";
 import { Routes } from "./Routes";
 import AppHeader from "./appHeader/AppHeader";
+import Footer from "./appHeader/components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <AppHeader />
       <Container className={"appContainer"}>
-        <Routes />
+        <AppHeader />
+        <Routes /> 
       </Container>
+      <Footer />
+
     </div>
   );
 }
