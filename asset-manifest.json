@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/devonlayton/static/css/main.a053e9f5.chunk.css",
-    "main.js": "/devonlayton/static/js/main.31d04afc.chunk.js",
-    "main.js.map": "/devonlayton/static/js/main.31d04afc.chunk.js.map",
-    "runtime-main.js": "/devonlayton/static/js/runtime-main.a32eb11a.js",
-    "runtime-main.js.map": "/devonlayton/static/js/runtime-main.a32eb11a.js.map",
-    "static/css/2.150d169a.chunk.css": "/devonlayton/static/css/2.150d169a.chunk.css",
-    "static/js/2.1578476c.chunk.js": "/devonlayton/static/js/2.1578476c.chunk.js",
-    "static/js/2.1578476c.chunk.js.map": "/devonlayton/static/js/2.1578476c.chunk.js.map",
-    "static/js/3.22a82296.chunk.js": "/devonlayton/static/js/3.22a82296.chunk.js",
-    "static/js/3.22a82296.chunk.js.map": "/devonlayton/static/js/3.22a82296.chunk.js.map",
-    "index.html": "/devonlayton/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/devonlayton/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.a053e9f5.chunk.css.map": "/devonlayton/static/css/main.a053e9f5.chunk.css.map",
-    "static/js/2.1578476c.chunk.js.LICENSE.txt": "/devonlayton/static/js/2.1578476c.chunk.js.LICENSE.txt",
-    "static/media/customLogo512.3c667592.png": "/devonlayton/static/media/customLogo512.3c667592.png"
+    "main.css": "/DevonLayton/static/css/main.a053e9f5.chunk.css",
+    "main.js": "/DevonLayton/static/js/main.896c5e81.chunk.js",
+    "main.js.map": "/DevonLayton/static/js/main.896c5e81.chunk.js.map",
+    "runtime-main.js": "/DevonLayton/static/js/runtime-main.cc6cd336.js",
+    "runtime-main.js.map": "/DevonLayton/static/js/runtime-main.cc6cd336.js.map",
+    "static/css/2.150d169a.chunk.css": "/DevonLayton/static/css/2.150d169a.chunk.css",
+    "static/js/2.1578476c.chunk.js": "/DevonLayton/static/js/2.1578476c.chunk.js",
+    "static/js/2.1578476c.chunk.js.map": "/DevonLayton/static/js/2.1578476c.chunk.js.map",
+    "static/js/3.22a82296.chunk.js": "/DevonLayton/static/js/3.22a82296.chunk.js",
+    "static/js/3.22a82296.chunk.js.map": "/DevonLayton/static/js/3.22a82296.chunk.js.map",
+    "index.html": "/DevonLayton/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/DevonLayton/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.a053e9f5.chunk.css.map": "/DevonLayton/static/css/main.a053e9f5.chunk.css.map",
+    "static/js/2.1578476c.chunk.js.LICENSE.txt": "/DevonLayton/static/js/2.1578476c.chunk.js.LICENSE.txt",
+    "static/media/customLogo512.3c667592.png": "/DevonLayton/static/media/customLogo512.3c667592.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a32eb11a.js",
+    "static/js/runtime-main.cc6cd336.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.1578476c.chunk.js",
     "static/css/main.a053e9f5.chunk.css",
-    "static/js/main.31d04afc.chunk.js"
+    "static/js/main.896c5e81.chunk.js"
   ]
 }
