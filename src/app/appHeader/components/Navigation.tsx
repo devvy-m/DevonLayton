@@ -1,43 +1,42 @@
 import React, { ReactElement } from "react";
 import { Nav, Navbar, Image } from "react-bootstrap";
-import { Github, Linkedin } from "react-bootstrap-icons";
-import logo from "src/app/customLogo512.png";
+import { LinkContainer } from "react-router-bootstrap";
+
+import logo from "src/app/media/customLogo512.png";
 import "../AppHeader.scss";
 
 const Navigation: React.FC = (): ReactElement => {
   return (
-    <Navbar id="site-nav" expand="md" variant="dark">
-      {/* <Navbar id="site-nav" className="navbar navbar-light bg-light " expand="md"/> */}
-
-      <Navbar.Collapse>
-        <Nav
-          className="justify-content-end"
-          variant="pills"
-          id="site-nav"
-          as="ul"
-        >
-          {/* <Nav.Item> */}
-            <Nav.Link
-              // as="a"
-              className="Nav-link"
-              href={"/devonlayton"}
-              style={{ color: "hotpink" }}
-            >
-              <Image src={logo} className="App-logo" alt="logo" />{" "}
+    <Navbar
+      collapseOnSelect
+      className="site-nav "
+      id="nav-bar"
+      expand="lg"
+      fixed="top"
+    >
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse className="navbar-collapse">
+        <Nav id="site-nav" as="ul">
+          <LinkContainer to="/DevonLayton">
+            <Navbar.Brand  className="nav-link">
+              <Image src={logo} className="App-logo" alt="logo" /> Devon Layton
+            </Navbar.Brand>
+          </LinkContainer>
+          <LinkContainer to="/DevonLayton/aboutme">
+            <Nav.Link className="nav-link" >
+              About Me
             </Nav.Link>
-          {/* </Nav.Item>
-          <Nav.Item> */}
-            <Nav.Link href={"/devonlayton"}>Devon Layton</Nav.Link>
-          {/* </Nav.Item>
-          <Nav.Item className="Nav-link"> */}
-            <Nav.Link href={"/devonlayton/aboutme"}>About Me</Nav.Link>
-          {/* </Nav.Item>
-          <Nav.Item> */}
-            <Nav.Link href={"/devonlayton/projects"}>Projects</Nav.Link>
-          {/* </Nav.Item>
-          <Nav.Item> */}
-            <Nav.Link href={"/devonlayton/contact"}>Contact</Nav.Link>
-          {/* </Nav.Item> */}
+          </LinkContainer>
+          <LinkContainer to="/DevonLayton/projects">
+            <Nav.Link className="nav-link">
+              Projects
+            </Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/DevonLayton/contact">
+            <Nav.Link className="nav-link" >
+              Contact
+            </Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

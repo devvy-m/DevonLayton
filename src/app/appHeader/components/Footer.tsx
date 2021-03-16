@@ -1,29 +1,31 @@
 import React, { ReactElement } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { Flower1, Github, Linkedin } from "react-bootstrap-icons";
 
 const Footer: React.FC = (): ReactElement => {
   return (
-    // <Navbar id="site-nav" className="navbar navbar-dark bg-dark " expand="sm" variant="light">
-    <Nav
-    variant="tabs"
-    id="site-nav"
-  
-  >
-      <Nav.Item >
-        <Flower1 style={{ color: "whitesmoke" }} />
+    <Nav className="justify-content-center fixed-bottom" variant="pills" as="ul" >
+      <Nav.Item className="footer-link">
+        <Nav.Link className="footer-link" as="span">
+          <Flower1 />
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
         <Nav.Link
-          className="Nav-link"
+          className="footer-link"
           href="https://www.linkedin.com/in/devonlayton017/"
-          target="_blank"
+          target="linkedin"
           rel="noopener noreferrer"
         >
           <Linkedin />
         </Nav.Link>
+      </Nav.Item>
+
+      <Nav.Item>
         <Nav.Link
-          className="Nav-link"
+          className="footer-link"
           href="https://github.com/Dml4h"
-          target="_blank"
+          target="github"
           rel="noopener noreferrer"
         >
           <Github />

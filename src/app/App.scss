@@ -1,59 +1,44 @@
-// :root {
-//   background-color: rgb(61,61,61);
-// }
-
 body {
-  background-color: rgb(33,33,34) !important;
+  background-color: rgb(33, 33, 34);
 }
 
 .App {
   text-align: center;
-
-  h2 {
-    color: #343a40 !important;
+}
+.App-logo {
+  height: calc(100vmin - 95vmin);
+  padding: 2%;
+  margin-right: 2%;
+  pointer-events: visibleStroke;
+}
+.App-link {
+  color: #61dafb;
+}
+.appContainer {
+  display: flex;
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s alternate ease-in-out;
   }
 }
-  
-  .App-logo {
-    height: calc(100vmin - 95vmin);
-    padding: 2%;
-    pointer-events: visibleStroke;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 10s alternate ease-in-out;
-      
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  .appContainer {
-    padding: 40px 20px; 
-    max-width: 100% !important;
-    // background-color: rgb(61,61,61);
 
+@keyframes App-logo-spin {
+  from {
+    transform: translateX(-10px) rotate3d(0, 1, 0, -30deg);
   }
-  
-  .App-link {
-    color: #61dafb;
+  to {
+    transform: translateX(10px) rotate3d(0, 1, 0, 30deg);
   }
-  
-  // @keyframes App-logo-spin {
-  //   from{
-  //     transform: translateX(-45px)  rotate3d(0,1,0,-45deg) ;
-  //   }
-  //   to{
-  //     transform:  translateX(45px) rotate3d(0,1,0,45deg) ;
-  //   }
-  // }
-  
+}

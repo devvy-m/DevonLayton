@@ -1,19 +1,16 @@
 import "./App.scss";
-import { Container } from "react-bootstrap";
+import { Container, Media, Image, ResponsiveEmbed, Row } from "react-bootstrap";
 import { Routes } from "./Routes";
 import AppHeader from "./appHeader/AppHeader";
-import Footer from "./appHeader/components/Footer";
+
+// import logo from "src/app/media/AdobeStock_136909798.png";
 
 function App() {
   return (
-    <div className="App">
-      <Container className={"appContainer"}>
-        <AppHeader />
-        <Routes /> 
+      <Container className={"appContainer"} fluid>
+          <AppHeader />
+          <Routes />
       </Container>
-      <Footer />
-
-    </div>
   );
 }
 
