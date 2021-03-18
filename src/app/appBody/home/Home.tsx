@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { Tab, Media } from "react-bootstrap";
+import { Media } from "react-bootstrap";
 import "./Home.scss";
 const Home: React.FC = (): ReactElement => {
   return (

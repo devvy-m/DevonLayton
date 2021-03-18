@@ -1,19 +1,32 @@
-.contactBody {
-  color: whitesmoke;
-  width: 275px;
-  height: 190px;
-  right: 20%;
-  position: absolute;
-  bottom: 0;
-  // background-color: #212122 !important;
-  background-image: linear-gradient(
-    90deg,
-    rgba(231, 24, 96, 0.9),
-    rgba(231, 160, 50, 0.9)
-  );
-  background-blend-mode: exclusion;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: center;
+.contactModal {
+  // color: whitesmoke;
+  // width: 275px;
+  // height: 190px;
+  // right: 20%;
+  // position: absolute;
+  // bottom: 0;
+  // // background-color: #212122 !important;
+  // background-image: linear-gradient(
+  //   90deg,
+  //   rgba(231, 24, 96, 0.9),
+  //   rgba(231, 160, 50, 0.9)
+  // );
+  // background-blend-mode: exclusion;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-position-x: center;
 }
+
+.modalBody {
+  color: seashell;
+  position: relative;
+  bottom: 0;
+  background-image:linear-gradient(274deg, #6c757d94, #545658ed);
+  background-blend-mode: exclusion;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* background-position-x: center; */
+}
+
