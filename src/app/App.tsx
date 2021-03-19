@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Container, Media, Image, ResponsiveEmbed, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Routes } from "./Routes";
 import AppHeader from "./appHeader/AppHeader";
 
