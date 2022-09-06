@@ -1,16 +1,17 @@
-import "./App.scss";
+
 import { Container } from "react-bootstrap";
 import { Routes } from "./Routes";
 import AppHeader from "./appHeader/AppHeader";
+import Footer from "src/app/appFooter/Footer";
+import "src/app/App.scss";
 
-// import logo from "src/app/media/AdobeStock_136909798.png";
-
-function App() {
+export function App() {
   return (
-      <Container className={"appContainer"} fluid>
-          <AppHeader />
-          <Routes />
-      </Container>
+    <Container className="appContainer" fluid>
+      <AppHeader />
+      <Routes />
+      <Footer />
+    </Container>
   );
 }
 

@@ -1,0 +1,10 @@
+.AppFooter {
+  .footerLink {
+    color: #abffff;
+    &:hover,
+    &:active {
+      background-color: inherit !important;
+      color: floralwhite;
+    }
+  }
+}

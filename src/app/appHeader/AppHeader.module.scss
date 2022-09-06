@@ -1,0 +1,20 @@
+.AppHeader {
+  min-height: 12vh;
+  display: flex;
+
+  .siteNav {
+    background-color: rgb(33, 33, 34) !important;
+    min-height: 4rem;
+    font-variant: petite-caps;
+    font-size: 1.25rem;
+    font-style: oblique;
+    cursor: pointer;
+
+    .navLink {
+      align-items: baseline;
+      align-items: center !important;
+      color: seashell !important;
+      cursor: pointer;
+    }
+  }
+}
